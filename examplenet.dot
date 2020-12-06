@@ -1,0 +1,26 @@
+digraph SingleRelu {
+	graph [bb="0,0,284,53",
+		rankdir=LR
+	];
+	node [label="\N"];
+	"test/Relu (op#0)\n input0 x\n output0 y"	[URL="javascript:alert('')",
+		color="#0F9D58",
+		fontcolor="#FFFFFF",
+		height=0.73611,
+		pos="142,26.5",
+		shape=box,
+		style=filled,
+		width=1.4444];
+	y0	[height=0.5,
+		label=y,
+		pos="257,26.5",
+		shape=octagon,
+		width=0.75];
+	"test/Relu (op#0)\n input0 x\n output0 y" -> y0	[pos="e,229.97,26.5 194.21,26.5 202.82,26.5 211.59,26.5 219.72,26.5"];
+	x0	[height=0.5,
+		label=x,
+		pos="27,26.5",
+		shape=octagon,
+		width=0.75];
+	x0 -> "test/Relu (op#0)\n input0 x\n output0 y"	[pos="e,89.584,26.5 54.208,26.5 61.882,26.5 70.615,26.5 79.514,26.5"];
+}

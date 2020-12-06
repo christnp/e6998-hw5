@@ -1,3 +1,6 @@
 [submodule "pytorch-ssd"]
 	path = pytorch-ssd
 	url = https://github.com/qfgaohao/pytorch-ssd.git
+[submodule "onnx"]
+	path = onnx
+	url = https://github.com/onnx/onnx.git
