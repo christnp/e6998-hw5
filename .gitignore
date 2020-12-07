@@ -2,3 +2,5 @@
 data/
 checkpoints/
 eval_results/
+models/beer
+models/traffic
