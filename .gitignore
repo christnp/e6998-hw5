@@ -4,3 +4,4 @@ checkpoints/
 eval_results/
 models/beer
 models/traffic
+.ipynb_checkpoints/
